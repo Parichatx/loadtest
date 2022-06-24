@@ -1,19 +1,4 @@
-{
-    "root_group": {
-        "id": "d41d8cd98f00b204e9800998ecf8427e",
-        "groups": {},
-        "checks": {
-                "status is 200": {
-                    "id": "6210a8cd14cd70477eba5c5e4cb3fb5f",
-                    "passes": 0,
-                    "fails": 20,
-                    "name": "status is 200",
-                    "path": "::status is 200"
-                }
-            },
-        "name": "",
-        "path": ""
-    },
+
     "metrics": {
         "vus_max": {
             "min": 20,
@@ -115,5 +100,3 @@
             "count": 0,
             "rate": 0
         }
-    }
-}
